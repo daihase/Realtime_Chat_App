@@ -1,0 +1,55 @@
+#room {
+    background-color: #ddd;
+    margin-bottom: 1em;
+}
+
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+#scroller {
+    height: 500px;
+    overflow: auto;
+}
+
+.left_balloon {
+    position: relative;
+    background: #f1f0f0;
+    border: 0px solid #777;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 400px;
+    clear: both;
+}
+
+.right_balloon {
+    color: #fff;
+    position: relative;
+    background: #0084ff;
+    border: 0px solid #777;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    width: 400px;
+    clear: both;
+    float: right;
+}
+
+.clear_balloon{
+    clear: both;
+}
+
+.sender_name{
+    margin-bottom: -5px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, .40);
+}
+
+.sender_name.me{
+    float: right;
+    padding: 0 20px 0 0;
+}

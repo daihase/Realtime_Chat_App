@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="31da0add-805e-4ac8-9455-3d69aef9ccea" name="chat" url="http://54.64.153.168">
+        <fileTransfer host="54.64.153.168" port="22" privateKey="$USER_HOME$/LibraStudio_AppServer.pem" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

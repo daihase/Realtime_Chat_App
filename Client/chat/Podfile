@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+target 'chat' do
+  pod 'Socket.IO-Client-Swift', '~> 8.2.0'
+  pod 'JSQMessagesViewController'
+end
